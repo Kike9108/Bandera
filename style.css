@@ -1,0 +1,70 @@
+
+body{
+   background-color: darksalmon ;
+}
+
+.flex_azul1{
+    width: 1100px;
+    height: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;    
+}
+
+.flex_azul{
+    width: 900px;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: flex-end;
+    background-color: blue;    
+}
+.blanco_pr_pb_mb_mr{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 0px 0px 20px 0px;
+}
+
+.blanco_pt_pr_mr{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    
+    background-color: white;
+    margin: 20px 20px 0px 0px;
+}
+.rojo_pequeño{
+    width: 220px;
+    height: 220px;
+    background-color: red;
+}
+
+.blanco_pl_pb_mb{
+    width: 610px;
+    height: 250px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    margin: 0px 0px 20px 20px;
+}
+
+.blanco_pt_pl{
+    width: 610px;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: white;
+}
+
+.rojo_grande{
+    width: 580px;
+    height: 220px;
+    background-color: red;
+}
+
